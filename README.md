@@ -72,31 +72,26 @@ alphabet_dir = "ASL_Dataset/Train"
 1. Download the dataset from [here](https://www.kaggle.com/datasets/kapillondhe/american-sign-language)
 2. Depend on running with local computer or Google Colab, change the dataset path in this code section inside each ResNet .ipynb files
 ```python
-# Other constants
-model_save_name = 'resnet_3_categories_model.pth'
-statistic_save_name = 'resnet_3_categories_statistic.pkl'
-statistic_path = F"/content/drive/My Drive/comp6721-project/{statistic_save_name}"
-model_path = F"/content/drive/My Drive/comp6721-project/{model_save_name}" 
-
-ROOT_PATH = '/content/drive/MyDrive/comp6721-project/datasets/dataset-3/'
-training_path = f'{ROOT_PATH}/train'
-validation_path = f'{ROOT_PATH}/val'
-evaluation_path = f'{ROOT_PATH}/test'
+# give path of the input dataset folder
+path="/kaggle/input/dataset-10n/dataset-10N"
+# give path to save the plot results(Example training vs epoch,loss vs steps,etc)
+saveFilePath="/kaggle/input/hyperparameters.pkl"
+# give path to save the trained model
+saveModelPath="/kaggle/input/"
 ```
 3. Change following constants in code for hyperparameters
 ```python
-# Model training constants
-batch_size = 32
-num_epochs = 10
-
-# Loss function & optimizer constants
-lr = 0.0001
-
-# Image constants
-image_size = 256
-mean = [0.554, 0.450, 0.343]
-std = [0.231, 0.241, 0.241]
-num_classes = 3
+#change input dimensions of the image fed to the CNN
+inputDimension=(256,256)
+#Setting different batch sizes
+batch_sizes= [128,64,32]
+#Setting different learning rates
+learning_rates= [0.00001,0.0001,0.01]
+#Setting the number of epochs
+epochs=10
+#setting the loss function
+criterion=nn.CrossEntropyLoss()
+```
 
 4. Change the following variables under the "HyperParameter tuning" subsection in the notebook(only if tuning is required,otherwise skip this step)
 #change input dimensions of the image fed to the CNN
