@@ -94,6 +94,7 @@ criterion=nn.CrossEntropyLoss()
 ```
 
 4. Change the following variables under the "HyperParameter tuning" subsection in the notebook(only if tuning is required,otherwise skip this step)
+```python
 #change input dimensions of the image fed to the CNN
 inputDimension=(256,256)
 #different batch sizes
