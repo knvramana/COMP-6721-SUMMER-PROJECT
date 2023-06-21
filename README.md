@@ -91,20 +91,8 @@ learning_rates= [0.00001,0.0001,0.01]
 epochs=10
 #setting the loss function
 criterion=nn.CrossEntropyLoss()
-```
-
-4. Change the following variables under the "HyperParameter tuning" subsection in the notebook(only if tuning is required,otherwise skip this step)
-```python
-#change input dimensions of the image fed to the CNN
-inputDimension=(256,256)
-#different batch sizes
-batch_sizes=[128,64,32]
-#different learning rates
-learning_rates= [0.00001,0.0001,0.01]
-#Setting the number of epochs
-epochs=10
 ``` 
-5. Run Jupyter Notebook, and see the results
+4. Run Jupyter Notebook, and see the results
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
