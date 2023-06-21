@@ -10,11 +10,11 @@ ASL is accepted by many high schools, colleges, and universities in fulfillment 
 * [![Python][Python]][Python-url]
 * [![Pytorch][Pytorch]][Pytorch-url]
 * [![Colab][Colab]][Colab-url]
-* ![Matplotlib][Matplotlib]
-* ![Numpy][Numpy]
 * ![Scipy][Scipy]
+* ![Numpy][Numpy]
 * ![scikit-learn][scikit-learn]
 * ![PIL][PIL]
+* ![Matplotlib][Matplotlib]
 * ![Pickle][Pickle]
 * ![THOP][THOP]
 * ![CuPy][CuPy]
@@ -73,7 +73,7 @@ alphabet_dir = "ASL_Dataset/Train"
 2. Depend on running with local computer or Google Colab, change the dataset path in this code section inside each ResNet .ipynb files
 ```python
 # give path of the input dataset folder
-path="/kaggle/input/dataset-10n/dataset-10N"
+path="/kaggle/input/ASL/Dataset"
 # give path to save the plot results(Example training vs epoch,loss vs steps,etc)
 saveFilePath="/kaggle/input/hyperparameters.pkl"
 # give path to save the trained model
