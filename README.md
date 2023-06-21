@@ -17,7 +17,7 @@ ASL is accepted by many high schools, colleges, and universities in fulfillment 
 * ![PIL][PIL]
 * ![Pickle][Pickle]
 * ![THOP][THOP]
-* ![CuPy (CUDA version)][CuPy][Cupy-url]
+* ![CuPy (CUDA version)][CuPy]
 
 ## Repository Structure
 * Supervised learning Classification with Decision Trees : Jupiter Notebook files for Decision Tree.
@@ -125,5 +125,4 @@ epochs=10
 [PIL]: https://img.shields.io/badge/PIL-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
 [Pickle]: https://img.shields.io/badge/Pickle-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
 [THOP]: https://img.shields.io/badge/THOP-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
-[Cupy]: https://img.shields.io/badge/CuPy
-[Cupy-url]: https://cupy.dev/
+[CuPy]: https://cupy.dev/
