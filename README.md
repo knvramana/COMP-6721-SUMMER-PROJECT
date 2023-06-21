@@ -125,4 +125,5 @@ epochs=10
 [PIL]: https://img.shields.io/badge/PIL-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
 [Pickle]: https://img.shields.io/badge/Pickle-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
 [THOP]: https://img.shields.io/badge/THOP-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
+[Cupy]: https://img.shields.io/badge/CuPy
 [Cupy-url]: https://cupy.dev/
