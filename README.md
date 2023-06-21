@@ -17,7 +17,7 @@ ASL is accepted by many high schools, colleges, and universities in fulfillment 
 * ![PIL][PIL]
 * ![Pickle][Pickle]
 * ![THOP][THOP]
-* ![CuPy (CUDA version)][Cupy-url]
+* ![CuPy (CUDA version)][CuPy][Cupy-url]
 
 ## Repository Structure
 * Supervised learning Classification with Decision Trees : Jupiter Notebook files for Decision Tree.
